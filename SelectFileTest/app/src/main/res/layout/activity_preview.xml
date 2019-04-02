@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c2"
+    tools:context="com.wdcloud.selectfiletest.PreviewActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/previewactivity_viewpager_top"
+        android:gravity="center_vertical"
+        android:background="@color/c10">
+
+        <ImageView
+            android:id="@+id/previewactivity_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/white_btn_back_"/>
+
+        <TextView
+            android:layout_width="0.5dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/c2"
+            android:layout_toRightOf="@+id/previewactivity_back"/>
+
+        <TextView
+            android:id="@+id/previewactivity_num_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/previewactivity_back"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="7/9"/>
+
+        <ImageView
+            android:id="@+id/previewactivity_delete"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="16dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/p_d"/>
+    </RelativeLayout>
+
+    <com.wdcloud.selectfiletest.util.PreviewViewPager
+        android:id="@+id/previewactivity_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/previewactivity_viewpager_top"/>
+</android.support.constraint.ConstraintLayout>

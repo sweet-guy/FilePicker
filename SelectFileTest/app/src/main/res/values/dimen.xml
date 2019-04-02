@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="design_tab_max_width">264dp</dimen>
+    <dimen name="accessory_file_pib_mt">1dp</dimen>
+    <dimen name="accessory_file_pib_pt">5dp</dimen>
+    <dimen name="accessory_file_pib_pl">10dp</dimen>
+    <dimen name="sendmessageactivity_accessory_left_tv_w">45dp</dimen>
+    <dimen name="previewactivity_viewpager_top">45dp</dimen>
+    <dimen name="sendmessageactivity_accessory_left_tv_textsize">15sp</dimen>
+    <dimen name="sendmessageactivity_accessory_pic_left_tv_textsize">13sp</dimen>
+    <dimen name="sendmessageactivity_accessory_pic_left_num_tv_ml">6dp</dimen>
+    <dimen name="sendmessageactivity_accessory_warpgridview_line_magin">8dp</dimen>
+    <dimen name="sendmessageactivity_accessory_warpgridview_magin_top">5dp</dimen>
+    <dimen name="sendmessageactivity_accessory_file_left_num_tv_ml">6dp</dimen>
+    <dimen name="sendmessageactivity_accessory_warpgridview_right">10dp</dimen>
+    <dimen name="sendmessageactivity_accessory_file_warpgridview_mb">5dp</dimen>
+    <dimen name="sendmsgaccessorypicadapter_item_draweeView_width">90dp</dimen>
+    <dimen name="sendmsgaccessorypicadapter_item_draweeView_height">70dp</dimen>
+</resources>

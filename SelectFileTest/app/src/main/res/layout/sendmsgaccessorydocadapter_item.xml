@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sendmsgaccessorydocadapter_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/sendmsgaccessorydocadapter_item_filename_linear"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/sendmsgaccessorydocadapter_item_draweeView"
+            android:layout_width="@dimen/sendmsgaccessorypicadapter_item_draweeView_height"
+            android:layout_height="@dimen/sendmsgaccessorypicadapter_item_draweeView_height"
+            android:background="@drawable/sendmsgaccessorydocadapter_item_draweeview_bg"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/sendmsgaccessorydocadapter_item_filename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="文件的名字"
+            android:textColor="@color/c2"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/sendmsgaccessorydocadapter_item_delete"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="60dp"
+
+        android:src="@mipmap/delete_pic" />
+
+    <LinearLayout
+        android:id="@+id/sendmsgaccessorydocadapter_item_linearlayout"
+        android:layout_width="@dimen/sendmsgaccessorypicadapter_item_draweeView_height"
+        android:layout_height="@dimen/sendmsgaccessorypicadapter_item_draweeView_height"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/imaginary_back_line_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:src="@mipmap/scwj" />
+
+        <TextView
+            android:id="@+id/sendmsgaccessorydocadapter_item_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0/3"
+            android:textSize="13sp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NiceTextView">
+        <attr name="text_lineWidth" format="integer"></attr>
+        <attr name="text_lineColor" format="color"></attr>
+        <attr name="text_lineHight" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="StickyScrollView">
+        <attr name="stuckShadowHeight" format="dimension" />
+        <attr name="stuckShadowDrawable" format="reference" />
+    </declare-styleable>
+</resources>
